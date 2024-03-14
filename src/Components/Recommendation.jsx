@@ -18,7 +18,7 @@ function Recommendation() {
 
   const data = [
     {
-      image: "Destination1", // Gambar destinasi Jogja 1
+      image: Destination1, // Gambar destinasi Jogja 1
       title: "Paket Wisata Lava Tour Merapi",
       subTitle: "Jelajahi keindahan Gunung Merapi dan pengalaman Lava Tour",
       cost: "Rp 350.000",
@@ -32,7 +32,7 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567890", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
     {
-      image: "Destination1", // Gambar destinasi Jogja 2
+      image: Destination2, // Gambar destinasi Jogja 2
       title: "Paket Wisata Candi Prambanan dan Candi Boko",
       subTitle: "Menikmati keindahan Candi Prambanan dan Candi Boko",
       cost: "Rp 250.000",
@@ -45,7 +45,7 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567891", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
     {
-      image: "Destination1", // Gambar destinasi Jogja 3
+      image: Destination3, // Gambar destinasi Jogja 3
       title: "Paket Wisata Malioboro Shopping",
       subTitle: "Berbelanja dan merasakan keseruan di jalan Malioboro",
       cost: "Rp 150.000",
@@ -58,7 +58,7 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567892", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
     {
-      image: "Destination1", // Gambar destinasi Jogja 4
+      image: Destination4, // Gambar destinasi Jogja 4
       title: "Paket Wisata Pindul Cave Tubing",
       subTitle: "Petualangan di sungai bawah tanah Gua Pindul",
       cost: "Rp 300.000",
@@ -71,7 +71,7 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567893", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
     {
-      image: "Destination1", // Gambar destinasi Jogja 5
+      image: Destination5, // Gambar destinasi Jogja 5
       title: "Paket Wisata Kasongan Pottery Village",
       subTitle: "Menemukan kerajinan tradisional di Desa Kasongan",
       cost: "Rp 180.000",
@@ -84,7 +84,7 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567894", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
     {
-      image: "Destination1", // Gambar destinasi Jogja 6
+      image: Destination6, // Gambar destinasi Jogja 6
       title: "Paket Wisata Alun-Alun Kidul",
       subTitle: "Menikmati suasana malam di Alun-Alun Kidul",
       cost: "Rp 200.000",
@@ -97,8 +97,6 @@ function Recommendation() {
       whatsappLink: "https://wa.me/1234567895", // Ganti dengan nomor WhatsApp yang ingin dituju
     },
   ];
-
-  // Kemudian Anda dapat menggunakan array 'data' ini sesuai dengan kebutuhan aplikasi atau situs web Anda.
 
   const openDestinationModal = (destination) => {
     setSelectedDestination(destination);
