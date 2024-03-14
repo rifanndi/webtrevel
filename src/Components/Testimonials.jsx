@@ -7,76 +7,84 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 function Testimonials() {
   const data = [
-    {
-      name: "Rahmi Abdullah",
-      occupation: "Guru SD",
-      avatar: avatar,
-      testimonial:
-        "Selena Tevel memiliki website yang mudah digunakan. Mudah untuk navigasi, mencari, dan mengubah tanggal tanpa harus menelepon. Setelah memutuskan, proses pemesanan cepat dan mudah, terima kasih.",
-    },
-    {
-      name: "Anton Susanto",
-      occupation: "Ahli Peneliti",
-      avatar: avatar2,
-      testimonial:
-        "Komunikasi yang baik. Ini adalah pemesanan yang terburu-buru dan dia sangat membantu / cepat dalam panggilan / balasan untuk memastikan kami bisa mendapatkan tanggal yang diinginkan.",
-    },
-    {
-      name: "Siti Nurlela",
-      occupation: "Guru SMA",
-      avatar: avatar3,
-      testimonial:
-        "Saya harus mengatakan bahwa layanan yang kami terima dari perusahaan ini luar biasa dan akan merekomendasikan mereka kepada siapa saja untuk mempercayai dan menggunakan mereka, hadiah yang Anda dapatkan dengan liburan Anda sungguh fantastis.",
-    },
-    {
-      name: "Budi Santoso",
-      occupation: "Dokter Umum",
-      avatar: avatar,
-      testimonial:
-        "Sangat puas dengan layanan dari Selena Tevel. Proses booking cepat dan mudah. Hotel-hotel yang direkomendasikan juga sangat memuaskan. Terima kasih!",
-    },
-    {
-      name: "Dewi Lestari",
-      occupation: "Penulis",
-      avatar: avatar2,
-      testimonial:
-        "Pelayanan yang ramah dan profesional. Pengalaman liburan bersama Selena Tevel sangat menyenangkan dan memuaskan. Akan kembali menggunakan layanan mereka di masa mendatang.",
-    },
-    {
-      name: "Ahmad Ibrahim",
-      occupation: "Pengusaha",
-      avatar: avatar3,
-      testimonial:
-        "Pengalaman menginap di hotel yang direkomendasikan oleh Selena Tevel luar biasa. Pelayanan yang ramah dan fasilitas yang lengkap membuat liburan kami berkesan.",
-    },
-  ];
-
-  const testimonialBox = {
-    backgroundColor: "#f9f9f9",
-    margin: "10px",
-    padding: "20px",
-    borderRadius: "8px",
-    maxWidth: "300px",
-    flex: "0 0 auto",
-  };
-
-  const iconStyle = {
-    fontSize: "24px",
-    marginBottom: "10px",
-  };
-
-  const infoStyle = {
-    display: "flex",
-    alignItems: "center",
-  };
-
-  const imgStyle = {
-    width: "50px",
-    height: "50px",
-    borderRadius: "50%",
-    marginRight: "10px",
-  };
-
+      {
+        name: "Fitriani Putri",
+        occupation: "Mahasiswa",
+        testimonial:
+          "Perjalanan bersama Selena Travel benar-benar luar biasa. Mereka tidak hanya menyediakan pengalaman liburan yang menyenangkan, tetapi juga membantu kami menjelajahi destinasi wisata dengan lebih baik. Terima kasih atas pengalaman yang tak terlupakan!",
+      },
+      {
+        name: "Hendri Gunawan",
+        occupation: "Pegawai Swasta",
+        testimonial:
+          "Saya sangat senang dengan pelayanan Selena Travel. Mereka sangat responsif dan membantu kami dengan segala kebutuhan kami selama perjalanan. Pengalaman kami bersama Selena Travel sungguh mengesankan!",
+      },
+      {
+        name: "Siti Rahmawati",
+        occupation: "Ibu Rumah Tangga",
+        testimonial:
+          "Selama perjalanan bersama Selena Travel, kami merasa aman dan nyaman. Mereka memiliki staf yang ramah dan berpengetahuan luas tentang destinasi kami. Kami pasti akan merekomendasikan mereka kepada teman dan keluarga!",
+      },
+      {
+        name: "Muhammad Fadillah",
+        occupation: "Wiraswasta",
+        testimonial:
+          "Saya sangat terkesan dengan profesionalisme dan keramahan staf Selena Travel. Mereka mengatur semua dengan sempurna, mulai dari akomodasi hingga transportasi. Pengalaman liburan bersama mereka benar-benar menyenangkan!",
+      },
+      {
+        name: "Larasati Indah",
+        occupation: "Pelajar",
+        testimonial:
+          "Perjalanan bersama Selena Travel menjadi salah satu momen terbaik dalam hidup saya. Mereka membantu kami menemukan tempat-tempat menarik dan memberikan layanan yang sangat baik. Terima kasih Selena Travel!",
+      },
+      {
+        name: "Yoga Pratama",
+        occupation: "Karyawan Kantor",
+        testimonial:
+          "Saya sangat puas dengan pelayanan Selena Travel. Mereka mengurus semua detail perjalanan kami dengan sempurna, memberikan kami pengalaman liburan yang tak terlupakan. Terima kasih atas keramahan dan kerja kerasnya!",
+      },
+      {
+        name: "Nurul Hidayah",
+        occupation: "Freelancer",
+        testimonial:
+          "Selena Travel benar-benar mengubah cara saya melihat liburan. Mereka tidak hanya memberikan pengalaman yang luar biasa, tetapi juga memberikan saran yang berharga untuk menjelajahi destinasi. Saya tidak sabar untuk berlibur dengan mereka lagi!",
+      },
+      {
+        name: "Agus Salim",
+        occupation: "Pengajar",
+        testimonial:
+          "Saya sangat terkesan dengan kualitas layanan dari Selena Travel. Mereka sangat memperhatikan detail dan selalu siap membantu kami dengan segala kebutuhan selama perjalanan. Pengalaman liburan kami tidak akan sehebat ini tanpa mereka!",
+      },
+      {
+        name: "Rini Suryani",
+        occupation: "Wiraswasta",
+        testimonial:
+          "Perjalanan bersama Selena Travel menjadi momen yang tak terlupakan bagi kami. Mereka tidak hanya menyediakan pengalaman liburan yang mengesankan, tetapi juga memberikan pelayanan yang sangat ramah dan profesional. Terima kasih atas semua yang telah mereka lakukan!",
+      },
+      {
+        name: "Faisal Rahman",
+        occupation: "Pegawai Bank",
+        testimonial:
+          "Saya tidak bisa cukup menekankan betapa luar biasanya perjalanan kami dengan Selena Travel. Mereka membuat segalanya menjadi mudah dan menyenangkan, mulai dari pemesanan hingga akomodasi. Terima kasih atas pengalaman liburan yang luar biasa!",
+      },
+      {
+        name: "Anisa Fitriani",
+        occupation: "Pelajar",
+        testimonial:
+          "Selena Travel tidak hanya memberikan pengalaman liburan yang menyenangkan, tetapi juga membantu kami menjelajahi tempat-tempat menarik di destinasi kami. Mereka adalah mitra perjalanan yang sempurna bagi kami!",
+      },
+      {
+        name: "Andre Wijaya",
+        occupation: "Pegawai Swasta",
+        testimonial:
+          "Saya sangat senang dengan layanan Selena Travel. Mereka sangat responsif dan membantu kami dengan segala kebutuhan kami selama perjalanan. Pengalaman kami bersama mereka sungguh mengesankan!",
+      },
+      {
+        name: "Dina Pratiwi",
+        occupation: "Mahasiswa",
+        testimonial:
+          "Selena Travel membantu kami menciptakan kenangan tak terlupakan selama liburan
+      ]}
   return (
     <section id="testimonials">
       <h1 style={{ textAlign: "center" }}>Pelanggan Puas</h1>
